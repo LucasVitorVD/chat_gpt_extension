@@ -1,0 +1,20 @@
+.examples_cards h2 {
+    font-size: 1.3rem;
+    color: white;
+}
+
+.example_item {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 15rem;
+    height: auto;
+    cursor: pointer;
+    transition: .1s;
+}
+
+.example_item:hover {
+    opacity: .8;
+}

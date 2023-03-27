@@ -1,0 +1,40 @@
+.card_container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(52, 53, 65);
+  min-width: 100%;
+  flex-grow: 1;
+}
+
+.card_header {
+  width: 85px;
+  height: auto;
+  margin-inline: auto;
+}
+
+.card_header img {
+  width: 100%;
+  height: auto;
+}
+
+.examples_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.rotate {
+  animation: rotateAnimation 25s infinite linear;
+}
+
+@keyframes rotateAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

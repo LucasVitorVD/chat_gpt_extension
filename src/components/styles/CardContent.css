@@ -1,0 +1,18 @@
+.chat_answer_area {
+  height: 60vh;
+  font-size: 1rem;
+}
+
+.chat_answer_area::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.chat_answer_area::-webkit-scrollbar-track {
+  background: #5F5F5F; 
+}
+
+.chat_answer_area::-webkit-scrollbar-thumb {
+  background-color: #5F5F5F; 
+  border-radius: 20px; 
+  border: 1px solid rgb(36, 36, 36); 
+}
